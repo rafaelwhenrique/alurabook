@@ -1,0 +1,152 @@
+.carrossel__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    font-weight: var(--fonte-bold);
+    font-size: 1.12em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card {
+    border-radius: 10px;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+    padding: 2em;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-family: var(--fonte);
+    font-weight: var(--fonte-bold);
+    font-size: 1em;
+}
+
+.titulo__titulo-livro {
+    color: var(--azul-escuro);
+    font-family: var(--fonte);
+    font-weight: var(--fonte-bold);
+    font-size: 1.2em;
+    margin: .5em 0;
+}
+
+.descrição__texto {
+    padding-bottom: 14px;
+    margin-right: 1em;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões__item {
+    margin:  0.5em;
+}
+
+.botões__ancora {
+    font-weight: var(--fonte-bold);
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    margin-top: 1em;
+    
+}
+
+.botões {
+    display: flex;
+    margin-top: 1em;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 1.6em;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .swiper-pagination {
+        padding: 2em 0 3em 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1724px) {
+
+    .carrossel__titulo {
+        padding-top: 2.5em;
+    }
+
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        margin: 0 10vw 3em;
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .card {
+        margin-top: 9em;
+        margin-left: 5em;
+    }
+
+    .descrição__titulo {
+        font-size: 2em;
+        padding-bottom: .5em;
+    }
+
+    .titulo__titulo-livro {
+        padding: .3em 0em .75em;
+    }
+
+    .descrição__imagem {
+        margin-left: 1em;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+

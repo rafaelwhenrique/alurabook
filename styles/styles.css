@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("footer.css");
+
+:root {
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-escuro: #002F52;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --background: #EBECEE;
+    --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+
+    --fonte: 'Poppins', sans-serif;
+    --fonte-secundario: 'Josefin Sans', sans-serif;
+    --fonte-light: 300;
+    --fonte-regular: 400;
+    --fonte-medium: 500;
+    --fonte-bold: 700;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: var(--fonte-regular);
+}
+
